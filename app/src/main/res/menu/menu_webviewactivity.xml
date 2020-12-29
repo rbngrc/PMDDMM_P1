@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/abrirNavegador"
+        android:title="Abrir en navegador"
+        android:icon="@mipmap/ic_browser"/>
+    <item
+        android:id="@+id/Localizacion"
+        android:title="Localizacion"
+        android:icon="@mipmap/ic_location"/>
+
+</menu>
