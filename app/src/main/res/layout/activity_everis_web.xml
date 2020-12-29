@@ -8,19 +8,17 @@
     tools:context=".EverisWebActivity"
     tools:layout_editor_absoluteY="81dp">
 
-    <WebView
-        android:id="@+id/webViewEveris"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btnNavBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
         android:background="@color/cardview_light_background"
         app:itemTextColor="@color/colorPrimary"
         app:menu="@menu/menu_webviewactivity" />
 
-    </WebView>
+    <WebView
+        android:id="@+id/webViewEveris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

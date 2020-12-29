@@ -6,7 +6,7 @@
         android:title="Abrir en navegador"
         android:icon="@mipmap/ic_browser"/>
     <item
-        android:id="@+id/Localizacion"
+        android:id="@+id/localizacion"
         android:title="Localizacion"
         android:icon="@mipmap/ic_location"/>
 
