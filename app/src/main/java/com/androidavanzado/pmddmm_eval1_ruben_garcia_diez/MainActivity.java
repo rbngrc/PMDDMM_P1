@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -34,12 +35,14 @@ public class MainActivity extends AppCompatActivity {
 
    private void cuadroDialogo(){
        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-       builder.setTitle("Titulo");
+       builder.setTitle("Aviso");
        builder.setMessage("Se va a proceder a realizar la reserva")
            .setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
                @Override
                public void onClick(DialogInterface dialogInterface, int i) {
                    Toast.makeText(getApplicationContext(), "Se ha realizado la reserva de la plaza", Toast.LENGTH_LONG).show();
+                   Intent intent = new Intent(MainActivity.this, EverisWebActivity.class);
+                   startActivity(intent);
                }
            })
            .setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
