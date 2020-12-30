@@ -102,25 +102,25 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/editTextName"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:ems="10"
                     android:hint="Nombre"
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonSurname1"
+                    android:id="@+id/editTextSurname1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:ems="10"
                     android:hint="Apellido 1"
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonSurname2"
+                    android:id="@+id/editTextSurname2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:ems="10"
                     android:hint="Apellido 2"
                     android:inputType="textPersonName" />
@@ -128,15 +128,15 @@
                 <EditText
                     android:id="@+id/editTextPhone"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:ems="10"
                     android:hint="Telefono"
                     android:inputType="phone" />
 
                 <EditText
-                    android:id="@+id/editTextTextEmailAddress"
+                    android:id="@+id/editTextEmailAddress"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:ems="10"
                     android:hint="Email"
                     android:inputType="textEmailAddress" />
@@ -144,7 +144,7 @@
                 <Spinner
                     android:id="@+id/spinnerOpciones"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginTop="5dp" />
             </LinearLayout>
 
@@ -156,7 +156,7 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editTextTextComments"
+                android:id="@+id/editTextComments"
                 android:layout_width="match_parent"
                 android:layout_height="112dp"
                 android:layout_marginTop="10dp"
