@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="spinnerOpciones">
-        <item>Presencial</item>
-        <item>OnLine</item>
+        <item>@string/spinnerPresencial</item>
+        <item>@string/spinnerOnline</item>
     </string-array>
 
 </resources>

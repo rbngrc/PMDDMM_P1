@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">PMDDMM_EVAL1_RUBEN_GARCIA_DIEZ</string>
+    <string name="titulo">Formulario de registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido1">Apellido 1</string>
+    <string name="apellido2">Apellido 2</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="modalidad">Modalidad</string>
+    <string name="comentarios">Comentarios</string>
+    <string name="btnReservar">RESERVAR PLAZA</string>
+    <string name="spinnerOnline">OnLine</string>
+    <string name="spinnerPresencial">Presencial</string>
 </resources>

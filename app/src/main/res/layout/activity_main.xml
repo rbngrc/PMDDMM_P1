@@ -20,7 +20,7 @@
             android:gravity="center"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
-            android:text="Formulario de registro"
+            android:text="@string/titulo"
             android:textColor="@color/colorPrimary"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:paddingLeft="10dp"
-                    android:text="Nombre"
+                    android:text="@string/nombre"
                     android:textColor="@color/colorPrimary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
@@ -50,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:paddingLeft="10dp"
-                    android:text="Apellido 1"
+                    android:text="@string/apellido1"
                     android:textColor="@color/colorPrimary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:paddingLeft="10dp"
-                    android:text="Apellido 2"
+                    android:text="@string/apellido2"
                     android:textColor="@color/colorPrimary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:paddingLeft="10dp"
-                    android:text="Telefono"
+                    android:text="@string/telefono"
                     android:textColor="@color/colorPrimary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
@@ -80,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:paddingLeft="10dp"
-                    android:text="Email"
+                    android:text="@string/email"
                     android:textColor="@color/colorPrimary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
@@ -90,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:paddingLeft="10dp"
-                    android:text="Modalidad"
+                    android:text="@string/modalidad"
                     android:textColor="@color/colorPrimary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
@@ -106,7 +106,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="10"
-                    android:hint="Nombre"
+                    android:hint="@string/nombre"
                     android:inputType="textPersonName" />
 
                 <EditText
@@ -114,7 +114,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="10"
-                    android:hint="Apellido 1"
+                    android:hint="@string/apellido1"
                     android:inputType="textPersonName" />
 
                 <EditText
@@ -122,7 +122,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="10"
-                    android:hint="Apellido 2"
+                    android:hint="@string/apellido2"
                     android:inputType="textPersonName" />
 
                 <EditText
@@ -130,7 +130,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="10"
-                    android:hint="Telefono"
+                    android:hint="@string/telefono"
                     android:inputType="phone" />
 
                 <EditText
@@ -138,7 +138,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="10"
-                    android:hint="Email"
+                    android:hint="@string/email"
                     android:inputType="textEmailAddress" />
 
                 <Spinner
@@ -162,7 +162,7 @@
                 android:layout_marginTop="10dp"
                 android:ems="10"
                 android:gravity="top"
-                android:hint="Comentarios"
+                android:hint="@string/comentarios"
                 android:inputType="textPersonName"
                 android:paddingTop="20dp" />
 
@@ -171,7 +171,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:text="Reservar plaza"
+                android:text="@string/btnReservar"
                 android:textColor="@color/colorPrimary" />
 
         </LinearLayout>
