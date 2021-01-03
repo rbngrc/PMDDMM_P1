@@ -19,4 +19,6 @@
     <string name="msnToast">" The reservation was successful"</string>
     <string name="navbarLocation">Location</string>
     <string name="navbarBorwser">Open in browser</string>
+    <string name="statusbarTittle2">Everis School</string>
+    <string name="statusbarTittle1">Call for your place</string>
 </resources>

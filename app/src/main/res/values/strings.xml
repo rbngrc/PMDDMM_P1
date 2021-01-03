@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PMDDMM_EVAL1_RUBEN_GARCIA_DIEZ</string>
+    <string name="app_name">Reserva Everis School</string>
     <string name="titulo">Formulario de registro</string>
     <string name="nombre">Nombre</string>
     <string name="apellido1">Apellido 1</string>
@@ -18,6 +18,7 @@
     <string name="msnToast">Se ha realizado la reserva de la plaza</string>
     <string name="navbarLocation">Localizacion</string>
     <string name="navbarBorwser">Abrir en navegador</string>
-
+    <string name="statusbarTittle2">Everis School</string>
+    <string name="statusbarTittle1">Solicita tu plaza</string>
 
 </resources>

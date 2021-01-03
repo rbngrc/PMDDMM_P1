@@ -21,6 +21,7 @@ public class EverisWebActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_everis_web);
+        getSupportActionBar().setTitle(R.string.statusbarTittle2);
 
         mBottomNavigationView = findViewById(R.id.btnNavBar);
         mBottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
