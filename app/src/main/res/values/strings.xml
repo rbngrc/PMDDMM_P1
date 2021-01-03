@@ -11,4 +11,13 @@
     <string name="btnReservar">RESERVAR PLAZA</string>
     <string name="spinnerOnline">OnLine</string>
     <string name="spinnerPresencial">Presencial</string>
+    <string name="campoVacio">Este campo esta vacio</string>
+    <string name="aviso">Aviso</string>
+    <string name="mensaje">Se va a proceder a realizar la reserva</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="msnToast">Se ha realizado la reserva de la plaza</string>
+    <string name="navbarLocation">Localizacion</string>
+    <string name="navbarBorwser">Abrir en navegador</string>
+
+
 </resources>

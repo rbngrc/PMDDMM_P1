@@ -13,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/cardview_light_background"
-        app:itemTextColor="@color/colorPrimary"
         app:menu="@menu/menu_webviewactivity" />
 
     <WebView
