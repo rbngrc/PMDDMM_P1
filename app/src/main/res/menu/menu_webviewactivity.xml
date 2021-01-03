@@ -3,11 +3,11 @@
 
     <item
         android:id="@+id/abrirNavegador"
-        android:icon="@mipmap/ic_browser"
+        android:icon="@drawable/ic_baseline_open_in_browser_24"
         android:title="@string/navbarBorwser" />
     <item
         android:id="@+id/localizacion"
-        android:icon="@mipmap/ic_location"
+        android:icon="@drawable/ic_baseline_location_on_24"
         android:title="@string/navbarLocation" />
 
 </menu>
