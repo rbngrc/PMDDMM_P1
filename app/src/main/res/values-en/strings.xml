@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PMDDMM_EVAL1_RUBEN_GARCIA_DIEZ</string>
+    <string name="app_name">Everis School</string>
     <string name="titulo">Register form</string>
     <string name="nombre">Name</string>
     <string name="apellido1">Surname 1</string>
@@ -11,7 +11,7 @@
     <string name="comentarios">Comments</string>
     <string name="btnReservar">RESERVE</string>
     <string name="spinnerOnline">OnLine</string>
-    <string name="spinnerPresencial">On-Site</string>
+    <string name="spinnerPresencial">OnSite</string>
     <string name="campoVacio">This field is empty</string>
     <string name="aviso">Warning</string>
     <string name="mensaje">We are going to proceed to register your reservation</string>
